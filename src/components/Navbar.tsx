@@ -59,6 +59,8 @@ function Navbar() {
             zIndex: 100,
           }}
         >
+          {" "}
+          Cart Items:
           {cart.map((cartItem) => {
             return (
               <li
