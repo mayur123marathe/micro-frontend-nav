@@ -36,6 +36,7 @@ function Navbar() {
           textAlign: "right",
           fontSize: "20px",
           padding: "5px",
+          cursor: "pointer",
         }}
       >
         🛒 ({cart.length})
